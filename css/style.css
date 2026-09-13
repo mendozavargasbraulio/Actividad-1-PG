@@ -1,6 +1,6 @@
 
 body{
-    margin: 60px;
+    margin: 60px auto;
     font-family: Arial, sans-serif;
 }
 .container{
@@ -10,28 +10,23 @@ html, body {
     font-size: 16px;
 }
 .card {
-    width   : 70%;
-    padding : 24px;
+    width   : 40%;
+    padding : 38px;
     background-color: #8abbf7a7;
     border: 2px solid #00479ea7;
 }
 
-.primary {
-    display: inline-block;
-    text-decoration: none;
-    margin: 6px;
-}
 #ejercicio1 {
-   
-    background-color: #00479ea7;
+    margin-bottom: 20px;
+    background-color: #b7032dc3;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: none;
     border-radius: 5px;
 }
 #ejercicio2 {
     margin-bottom: 20px;
-    background-color: #54009ea7;
+    background-color: #9e007ea7;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -39,28 +34,71 @@ html, body {
 }
 #ejercicio3 {   
     margin-bottom: 20px;
-    background-color: #9b009ea7;
+    background-color: #ab03aed3;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
 }
 #ejercicio4 {
-    background-color: #9e002da7;
+    margin-bottom: 20px;
+    background-color: #67009ee3;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
 }
 #ejercicio5 {
-    background-color: #f64904c8;
+    margin-bottom: 20px;
+    background-color: #0c04f6c8;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
 }
 #ejercicio6 {
-    background-color: #1c8809d0;
+    margin-bottom: 20px;
+    background-color: #0a80b7d0;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#ejercicio7 {
+    margin-bottom: 20px;
+    background-color: #08dadaa7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#ejercicio8 {
+    margin-bottom: 20px;
+    background-color: #048144;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#ejercicio9 {
+    margin-bottom: 20px;
+    background-color: #08da39a7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#ejercicio10 {
+    margin-bottom: 20px;
+    background-color: #7da204;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
     color: white;
     padding: 10px 15px;
     border: none;
