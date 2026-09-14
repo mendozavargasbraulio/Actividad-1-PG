@@ -1,20 +1,28 @@
-
 body{
     max-width: 500px;
     margin: 60px auto;
     padding: 20px;
     font-family: Arial, sans-serif;
     background-color: #afaeae5b;
+    
 }
 .container{
     background-color: #fffffcfe;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(76, 1, 187, 0.905);
+    box-shadow: 0px 0px 10px rgba(162, 0, 54, 0.905);
     text-align: center;
+    align-items: center;
 }
 html, body {
     font-size: 16px;
+}
+label {
+    display: block;
+    width: 70%;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 5px;
 }
 input,select,button{
     width: 70%;
@@ -25,11 +33,12 @@ input,select,button{
     text-align: center;
 }
 button {
-    background-color: #5e0bd3ee;
+    background-color: #d30b40ee;
     color: white;
     border: none;
     cursor: pointer;
 }
 button:hover {
-    background-color: #290260;
+    background-color: #60020b;
 }
+
