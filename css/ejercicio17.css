@@ -1,0 +1,75 @@
+body{
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #afaeae5b;
+    
+}
+.container{
+    background-color: #fffffcfe;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 86, 162, 0.905);
+    text-align: center;
+    align-items: center;
+}
+html, body {
+    font-size: 16px;
+}
+label {
+    display: block;
+    width: 70%;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+input,select{
+    width: 70%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+#beteene {
+    width: 85%;
+    padding: 14px 20px;
+    margin: 10px 0 20px 0;
+    background-color: #004494;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#beteene:hover {
+    background-color: #002b66;
+}
+button {
+    background-color: #0b94d3ee;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #024460;
+}
+.tarea {
+    width: 70%;
+    margin: 10px auto;
+    padding: 12px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+}
+.tarea span {
+    text-align: left;
+}
+.tarea button {
+    padding: 8px 12px;
+    border-radius: 5px;
+}
